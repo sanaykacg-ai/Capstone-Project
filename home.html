@@ -42,6 +42,35 @@
         <a href="gallery.html">Gallery</a>
         <a href="contactus.html">Contact Us</a>
     </div>
+    <!--Slide show-->
+    <section>
+        <img class="mySlides"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOMJvWpv6HzE8BlH22tCV5mK5Y64FXImqhSg&s"
+            style="height:500px;">
+        <img class="mySlides"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSva80qn921XF6JDyEMAvAcAibZTDL4nIuOdA&s"
+            style="height:500px;">
+        <img class="mySlides"
+            src="https://sm.mashable.com/mashable_sea/article/m/moon-phase/moon-phase-today-what-the-moon-will-look-like-on-may-3_15yu.jpg"
+            style="height:500px;">
+    </section>
+    <script>
+        //Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+    </script>
 </body>
 
 </html>
