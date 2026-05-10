@@ -42,6 +42,26 @@
         <a class="active" href="gallery.html">Gallery</a>
         <a href="contactus.html">Contact Us</a>
     </div>
+    <section>
+        <img class="mySlides" src="https://www.nhm.ac.uk/content/dam/nhm-www/discover/what-is-space/what-is-space-milky-way-full-width.jpg" style="height:500px;">
+        <img class="mySlides" src="https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg" style="height:500px;">
+        <img class="mySlides" src="https://cdn.hswstatic.com/gif/outer-space.jpg" style="height:500px;">
+    </section>
+    <script>
+        var myIndex = 0;
+        carousel();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display="block";
+            setTimeout(carousel, 3000);
+        }
+    </script>
 </body>
 
 </html>
