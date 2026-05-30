@@ -1,6 +1,14 @@
 .pimg1,
 .pimg2,
-.pimg3 {
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6,
+.pimg7,
+.pimg8,
+.pimg9,
+.pimg10,
+.pimg11 {
     position: relative;
     opacity: 0.70;
     background-position: center;
@@ -21,6 +29,46 @@
 
 .pimg3 {
     background-image: url('FGicVTjLV85SWuS8sJg3fJ-2121-80.jpg');
+    min-height: 400px;
+}
+
+.pimg4 {
+    background-image: url('Slawosz_Uznanski-Wisniewski_using_the_Melfi_freezer_pillars.jpg');
+    min-height: 400px;
+}
+
+.pimg5 {
+    background-image: url('ai-generated-back-to-school-science-lab-excitement-highlight-the-excitement-of-a-science-experiment-in-a-laboratory-setting-background-image-generative-ai-photo.jpg');
+    min-height: 400px;
+}
+
+.pimg6 {
+    background-image: url('download-1.jpg');
+    min-height: 400px;
+}
+
+.pimg7 {
+    background-image: url('download-2.jpg');
+    min-height: 400px;
+}
+
+.pimg8 {
+    background-image: url('download-3.jpg');
+    min-height: 400px;
+}
+
+.pimg9 {
+    background-image: url('download4.jpg');
+    min-height: 400px;
+}
+
+.pimg10 {
+    background-image: url('csm_AdobeStock_pressmaster_6482f876e3.jpg');
+    min-height: 400px;
+}
+
+.pimg11 {
+    background-image: url('Subject-Specific-Activities.jpg');
     min-height: 400px;
 }
 
@@ -64,7 +112,15 @@
 
     .pimg1,
     .pimg2,
-    .pimg3 {
+    .pimg3,
+    .pimg4,
+    .pimg5,
+    .pimg6,
+    .pimg7,
+    .pimg8,
+    .pimg9,
+    .pimg10,
+    .pimg11 {
         background-attachment: scroll;
     }
 }
